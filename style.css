@@ -16,11 +16,12 @@
     text-align:center;
     
 }
-#menu{
-    
-}
+
 ul#menu li{
-    margin-top:50px;
+    list-style-type: none;
+   margin-top:50px;
+    margin: 0;
+    padding:0;
     display: inline-block;
     height: 34px;
     background:red;

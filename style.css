@@ -46,11 +46,19 @@ li p{
 
 li input{
     padding-left:30px;
-    background-size:contain;
+    background:url(img/search.png);
+    position:left;
+    background-size:20px;
+    background-repeat:no-repeat;
     height:20px;
     width:100px;
-    background:gray;
+    background-color:gray;
+    
     border-radius:10px;
+
+}
+li input:focus{
+    background:white;
 
 }
 ul#menu li:hover{

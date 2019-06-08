@@ -84,13 +84,13 @@ background:radial-gradient(circle, #242528, #323437, #424346, #525356, #626466);
 .im{
     display:inline;
     max-height:176px;
-    width:100%;
+    
     overflow: hidden;
 }
 
 .im img{
     width:321px;
-    display:inline;
+   
     float:left;
     }
 

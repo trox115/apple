@@ -6,7 +6,7 @@
 }
 
 main {
-  height: 500px;
+ 
   background: url(img/background.jpg);
   background-size: cover;
   background-position: bottom;
@@ -14,6 +14,7 @@ main {
   text-align: center;
   color: white;
   text-align: center;
+  display: inline-block;
 }
 
 navbar li{
@@ -114,36 +115,58 @@ background-repeat: no-repeat;
       background-position: bottom;
       }
 
-.text a {
-  color: white;
-}
-.text a:hover {
-  color: white;
+.text {
+  margin-bottom: 100px;
 }
 
-.im {
-  display: inline;
-  max-height: 176px;
 
-  overflow: hidden;
+.images-bot {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  flex-wrap:nowrap;
 }
 
-.im img {
-  width: 321px;
-
-  float: left;
+#promo1{
+  background-image:url(img/1.jpg);
+  
+  height:200px ;
+  width: 322px;
+  
 }
-
-.ft {
-  min-height: 90px;
-  /*display:inline-block;*/
+#promo2{
+  background: url(img/2.jpg);
+  height:200px ;
+  width: 322px;
+ 
+}
+#promo3{
+  background: url(img/3.jpg);
+  height:200px ;
+  width: 322px;
+ 
+}
+#promo4{
+  background: url(img/4.jpg);
+  height:200px ;
+  width: 322px;
+  clear:both;
+}
+footer{
+  clear:both;
+  margin-top:50px;
+  width: 100%;
+}
+.footerdisplay{
+  display: flex;
+  width: 100%;
 }
 
 .column {
-  margin-top: 20px;
   width: 50%;
-  float: left;
   font-size: x-small;
   text-align: center;
   color: gray;
+  clear:both;
+ display: inline-block;
 }

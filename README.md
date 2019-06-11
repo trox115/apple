@@ -5,6 +5,6 @@ This project is based on this <a href="https://web.archive.org/web/2014030100461
 
 
 <h1><b> Author:</b></h1>
-<a href="https://github.com/trox115">António Fernandes</a> ---
+@trox115 - António Fernandes</a> ---
 
 <h1>Link of the live version:</h1>https://raw.githack.com/trox115/apple/development/index.html

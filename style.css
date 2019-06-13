@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+main {
+ 
+  background: url(img/background.jpg);
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+navbar li{
+  list-style-type: none;
+  margin-top: 50px;
+  border-right: 2px solid gray;
+  padding: 0;
+  display: inline-block;
+  height: 34px;
+  background: -webkit-linear-gradient(
+    #666 0,
+    #5e5e5e 50%,
+    #707070 51%,
+    #808080 100%
+  );
+  background: -moz-linear-gradient(
+    #666 0,
+    #5e5e5e 50%,
+    #707070 51%,
+    #808080 100%
+  );
+  background: linear-gradient(#666 0, #5e5e5e 50%, #707070 51%, #808080 100%);
+  box-shadow: 0 1px 2px gray;
+  width: 105px;
+  height: 36px;
+  vertical-align: top;
+  line-height: 34px;
+  font-size: small;
+  border-radius: 2px;
+}
+li img {
+  width: 30px;
+}
+li p {
+  vertical-align: center;
+}
+
+li input {
+  padding-left: 5px;
+  background: url(img/search.png);
+  position: left;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 100px;
+  background-color: gray;
+
+  border-radius: 10px;
+}
+li input:focus {
+  background: white;
+}
+ul#menu li:hover {
+  cursor: pointer;
+  background: radial-gradient(
+    circle,
+    #242528,
+    #323437,
+    #424346,
+    #525356,
+    #626466
+  );
+}
+#image h1 {
+  margin-top: 70px;
+}
+.text {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Roboto;
+}
+
+#title{
+  margin-top:50px;
+background-image: url(img/your_verse_title_small.png);
+height: 100px;
+background-repeat: no-repeat;
+}
+
+#subtitle{
+  
+  background-image: url(img/your_verse_subhead_small.png);
+  height: 100px;
+  background-repeat: no-repeat;
+  }
+
+  #video{
+    background-image: url(img/cta_your_verse_27pt.png);
+    height: 29px;
+    background-repeat: no-repeat;
+    background-position: top;
+    }
+    #video:hover{
+      background-image: url(img/cta_your_verse_27pt.png);
+      height: 29px;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      }
+
+.text {
+  margin-bottom: 100px;
+}
+
+
+.images-bot {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  flex-wrap:nowrap;
+}
+.images-bot a{
+  flex:1;
+}
+
+#promo1{
+  background-image:url(img/1.jpg);
+  width: 100%;
+  height:100% ;
+  background-position: center;
+}
+#promo2{
+  background: url(img/2.jpg);
+  width: 100%;
+  height:100% ;
+  background-position: center;
+}
+#promo3{
+  background: url(img/3.jpg);
+  width: 100%;
+  height:100% ;
+  background-position: center;
+}
+#promo4{
+  background: url(img/4.jpg);
+  width: 100%;
+  height:100% ;
+  background-position: center;
+  clear:both;
+}
+footer{
+  clear:both;
+  margin-top:50px;
+  width: 100%;
+}
+.footerdisplay{
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  width: 50%;
+  font-size: x-small;
+  text-align: center;
+  color: gray;
+  clear:both;
+ display: inline-block;
+}
